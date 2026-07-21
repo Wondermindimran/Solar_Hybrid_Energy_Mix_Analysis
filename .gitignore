@@ -1,0 +1,105 @@
+# Python
+
+# Compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Environment variables
+.env
+.env.local
+
+
+
+# Data Files
+
+# Raw source files; large and already
+# publicly available from original sources
+data/raw/
+
+# Keep clean files (they are your work product)
+# data/clean/ is NOT ignored
+
+# Large binary files
+*.mat
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+
+
+# Operating System Files
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+
+
+# IDE and Editor Files
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# Spyder
+.spyderproject.proj
+.spyproject
+
+
+
+# Tableau
+
+# Tableau Desktop working files (large)
+# Only keep .twbx if it is small enough
+# *.twbx
+
+# Tableau autosave files
+*.twb~
+*.twbx~
+
+
+
+# Logs and Temporary Files
+
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+~$*
+
+
+
+# Build and Distribution
+
+
+dist/
+build/
+*.egg-info/
